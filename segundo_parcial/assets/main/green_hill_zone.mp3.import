@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/green_hill_zone.mp3-865dd3e096d981e27b7ab1552bf4c471.mp3str"
+
+[deps]
+
+source_file="res://assets/main/green_hill_zone.mp3"
+dest_files=[ "res://.import/green_hill_zone.mp3-865dd3e096d981e27b7ab1552bf4c471.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

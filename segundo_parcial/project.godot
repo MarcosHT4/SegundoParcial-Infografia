@@ -1,0 +1,62 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="Sonic The Hedgehog In Godot"
+run/main_scene="res://scenes/TitleScreen.tscn"
+boot_splash/image="res://assets/icon/sega_logo.png"
+boot_splash/fullsize=false
+boot_splash/bg_color=Color( 1, 1, 1, 1 )
+config/icon="res://assets/icon/sonic_logo.png"
+config/windows_native_icon="res://assets/sonic_logo.ico"
+
+[display]
+
+window/size/resizable=false
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[input]
+
+ui_jump={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":32,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+
+[layer_names]
+
+2d_physics/layer_1="sonic"
+2d_physics/layer_3="sonic_hurt"
+2d_physics/layer_4="sonic_hurt_by_environment"
+2d_physics/layer_5="enemy_hurt"
+2d_physics/layer_6="enemy_hit"
+2d_physics/layer_7="environment_hit"
+2d_physics/layer_8="sonic_hit"
+2d_physics/layer_9="sonic_collect_ring"
+2d_physics/layer_10="ring_collected"
+2d_physics/layer_11="ring_falling"
+2d_physics/layer_12="ring_support"
+2d_physics/layer_13="enemy_follow_detection"
+2d_physics/layer_14="sonic_follow_detection"
+2d_physics/layer_15="goal_detection"
+2d_physics/layer_16="goal_collision"
+2d_physics/layer_17="goal_collision_surface"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

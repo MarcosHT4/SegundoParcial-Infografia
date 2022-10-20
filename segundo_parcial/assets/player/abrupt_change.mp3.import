@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/abrupt_change.mp3-694c204edd2b5316642dd503f8b1a140.mp3str"
+
+[deps]
+
+source_file="res://assets/player/abrupt_change.mp3"
+dest_files=[ "res://.import/abrupt_change.mp3-694c204edd2b5316642dd503f8b1a140.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

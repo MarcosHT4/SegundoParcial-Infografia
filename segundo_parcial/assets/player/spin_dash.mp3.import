@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/spin_dash.mp3-efb651dfb4af045569931e1d8563b8e1.mp3str"
+
+[deps]
+
+source_file="res://assets/player/spin_dash.mp3"
+dest_files=[ "res://.import/spin_dash.mp3-efb651dfb4af045569931e1d8563b8e1.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
